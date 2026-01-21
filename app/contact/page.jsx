@@ -24,7 +24,7 @@ export default function Contact() {
              <form
              onSubmit={handleSubmit}
              autoComplete="off"
-             className="flex flex-col justify-center items-center gap-4 w-1/2 h-96 border-2 border-gray-300 bg-white shadow-2xl rounded-lg mx-auto mt-20">
+             className="flex flex-col justify-center items-center gap-4 w-11/12 sm:w-3/4 md:w-1/2   h-96 border-2 border-gray-300 bg-white shadow-2xl rounded-lg mx-auto mt-20">
             
             <div>
             <h1 className="text-lg font-bold font-sans text-green-400">LOGIN FORM</h1>
