@@ -51,8 +51,9 @@ export default function Contact() {
 <button type="submit" className="bg-purple-500 text-white py-2 w-60 rounded-lg font-bold">Submitt</button>
 </form>
 
-<div className="mt-[2%] flex justify-center text-white"> 
-    <Link  href="/">GO TO HOME</Link>
+<div className="mt-[2%] flex justify-center text-white gap-[2%]"> 
+    <Link  href="/contact/contactstory">GO TO COntact Story</Link>
+    <Link  href="/contact/contactteam">GO TO COntact Team</Link>
 </div>
         </div>
     )
